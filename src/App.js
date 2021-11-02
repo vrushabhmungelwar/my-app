@@ -74,7 +74,7 @@ export default function App() {
   return (
     <div className="App">
       {users.map((ur) => (
-        <Msg name={ur.name} pic={ur.pic} />
+        <Msg na={ur.name} pic={ur.pic} />
       ))}
     </div>
   );
@@ -88,4 +88,3 @@ function Msg({ name, pic }) {
   );
 }
 
-// TextTrackList
